@@ -1,6 +1,9 @@
 import React, { useReducer } from "react";
 
 import CartContext from "./cart-context";
+
+const cartReducer = (state, action) => {};
+
 const CartProvider = (props) => {
   const addItemToCartHandler = () => {};
 
